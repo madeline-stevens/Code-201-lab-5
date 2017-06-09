@@ -9,10 +9,9 @@ For TODO item, be sure to change it to say DONE when you have successfully compl
 
 // DONE: Write your code here
 function sum(a,b){ //eslint-disable-line
-  var message = 'The sum of 4 and 7 is 11.';
-  var sum = a + b;
-  return [sum, message];
-  console.log ('The sum of ' + a + ' and' + b + 'is ' + sum + '.');
+  var add = a + b;
+  console.log ('The sum of ' + a + ' and ' + b + ' is ' + add + '.');
+  return [add, 'The sum of ' + a + ' and ' + b + ' is ' + add + '.'];
 }
 
 // TODO: Here is the test for sum(); uncomment it to run it
