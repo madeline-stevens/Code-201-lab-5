@@ -9,10 +9,9 @@ For TODO item, be sure to change it to say DONE when you have successfully compl
 
 // DONE: Write your code here
 function sum(a,b){ //eslint-disable-line
-  var message = 'The sum of 4 and 7 is 11.';
-  var sum = a + b;
-  return [sum, message];
-  console.log ('The sum of ' + a + ' and' + b + 'is ' + sum + '.');
+  var add = a + b;
+  console.log ('The sum of ' + a + ' and ' + b + ' is ' + add + '.');
+  return [add, 'The sum of ' + a + ' and ' + b + ' is ' + add + '.'];
 }
 
 // TODO: Here is the test for sum(); uncomment it to run it
@@ -26,13 +25,16 @@ Write a function called multiply() that takes in two numbers as arguments and re
 "The product of 5 and 9 is 45."
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
-// TODO: Write your code here
+// DONE: Write your code here
 function multiply(a,b){ //eslint-disable-line
+  var product = a * b;
+  console.log ('The product of ' + a + ' and ' + b + ' is ' + product + '.');
+  return [product, 'The product of ' + a + ' and ' + b + ' is ' + product + '.'];
 
 }
 
-// TODO: Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+// DONE: Here is the test for multiply(); uncomment it to run it
+testMultiply(5,9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
