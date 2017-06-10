@@ -80,7 +80,7 @@ function sumArray(arrayParam){
   var message = arrayParam + ' was passed in as an array of numbers, and ' + total + ' is their sum.';
   return [total, message];
 }
-
+console.log(testing);
 // TODO: Here is the test for sumArray(); uncomment it to run it
 testSumArray(testArray);
 
