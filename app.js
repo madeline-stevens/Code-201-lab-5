@@ -76,7 +76,7 @@ function sumArray(arrayParam){
   for (var i = 0; i < arrayParam.length; i++) {
     total = sum(total, arrayParam[i])[0];
   }
-  var message = arrayParam + ' was passed in as an array of numbers, and ' + total + ' is their sum.';
+  var message = testArray + ' was passed in as an array of numbers, and ' + total + ' is their sum.';
   return [total, message];
 }
 // DONE: Here is the test for sumArray(); uncomment it to run it
